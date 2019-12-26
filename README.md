@@ -34,3 +34,6 @@ https://support.google.com/mail/answer/7126229?hl=ru
 
 
 - Now Run the project in IntelliJIDEA. Should boot correctly.
+
+PROJECT REPORT:
+https://docs.google.com/document/d/10PWxCJ_83oHKdySOC8NQt2OIJDKY4ipcVPmmjTuG98M/edit?usp=sharing
