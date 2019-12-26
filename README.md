@@ -16,9 +16,9 @@ Programming Language”. For REST API I used Spring Boot Framework because Sprin
 
 - HOW TO START?
 
-- First of all you need to clone my github repository to your machine.
+First of all you need to clone my github repository to your machine.
 
-- Change mysql username and password as per your installation**
+Change mysql username and password as per your installation**
 
 + open `src/main/resources/application.properties`
 
@@ -33,14 +33,14 @@ Create Mysql database**
 create database library;
 ```
 
-- And the last step is configure access to Gmail from external mail clients (SMTP). If you do not configure on your Gmail account yet, please follow the instructions below to do so:
+And the last step is configure access to Gmail from external mail clients (SMTP). If you do not configure on your Gmail account yet, please follow the instructions below to do so:
 
 https://support.google.com/mail/answer/7126229?hl=ru
 
-- After configuration open Mail class in a service package and change these variables to your own email and password. 
+After configuration open Mail class in a service package and change these variables to your own email and password. 
 
 
-- Build and run the app using maven**
+Build and run the app using maven**
 
 ```bash
 mvn package
