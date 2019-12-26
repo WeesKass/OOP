@@ -1,5 +1,5 @@
 # HELLO NURLAN AGAI!
-(https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/112684722/original/b94ed9fb929fa06098236596189678e329836457/create-java-spring-framework-application.png)
+![SPRING FRAMEWORK](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/112684722/original/b94ed9fb929fa06098236596189678e329836457/create-java-spring-framework-application.png)
 
 # Library Management REST API
 
@@ -11,7 +11,7 @@ Programming Language”. For REST API I used Spring Boot Framework because Sprin
 
 **ERD**
 
-(https://i.imgur.com/jni5ykN.png)
+![ERD](https://i.imgur.com/jni5ykN.png)
 
 
 - HOW TO START?
