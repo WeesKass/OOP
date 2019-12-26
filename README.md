@@ -16,24 +16,44 @@ Programming Language”. For REST API I used Spring Boot Framework because Sprin
 
 - HOW TO START?
 
-- First of all you need to clone my github repository to your machine. Then open this project in Intellij IDEA.
+- First of all you need to clone my github repository to your machine.
 
-- Now your need to change some setting in application. Fill in abandoned fields with your MySQL server’s username and password. After that you must create library database in your MySQL server. For that you need to connect to your database server by terminal:
+- Change mysql username and password as per your installation**
+
++ open `src/main/resources/application.properties`
+
++ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation.
+
+ After that you must create library database in your MySQL server. For that you need to connect to your database server by terminal:
 
 ~$     mysql -u root -p
 
-- and then use this command for creating library database:
-
- CREATE DATABASE library;
+Create Mysql database**
+```bash
+create database library;
+```
 
 - And the last step is configure access to Gmail from external mail clients (SMTP). If you do not configure on your Gmail account yet, please follow the instructions below to do so:
 
 https://support.google.com/mail/answer/7126229?hl=ru
 
--After configuration open Mail class in a service package and change these variables to your own email and password. 
+- After configuration open Mail class in a service package and change these variables to your own email and password. 
 
 
-- Now Run the project in IntelliJIDEA. Should boot correctly.
+- Build and run the app using maven**
 
+```bash
+mvn package
+java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
+
+```
+
+Alternatively, you can run the app without packaging it using -
+
+```bash
+mvn spring-boot:run
+```
+
+The app will start running at <http://localhost:8080>.
 PROJECT REPORT:
 https://docs.google.com/document/d/10PWxCJ_83oHKdySOC8NQt2OIJDKY4ipcVPmmjTuG98M/edit?usp=sharing
